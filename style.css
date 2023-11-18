@@ -1,0 +1,42 @@
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    margin-top: 150px;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(34, 94, 146);
+}
+input{
+    height: 40px;
+    width : 275px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+button{
+    width: 60px;
+    height: 50px;
+    margin: 5px 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.zero{
+    width: 133px;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .container{
+        width: 350px;
+    }
+    
+}
